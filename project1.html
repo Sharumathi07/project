@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Sofadi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./project1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header">
+        <nav>
+            <div>
+            <h1>FASHION STORE <i class="fa-solid fa-crown"></i></h1>
+            </div>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    
+    <div class="hero" >
+        <h2>Latest Collection</h2>
+        <p>upto 60% off</p>
+    </div>
+
+
+    
+
+    <div class="filters">
+        <label for="category">Filter by Category:</label>
+        <select id="category" onchange="filterProducts()">
+            <option value="all">All</option>
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+            <option value="kids wear">kids wear</option>
+            <option value="Accessories">Accessories</option>
+        </select>
+    </div>
+
+    <div class="products" id="product-list">
+    </div>
+    <section class="contact" id="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: contact@fashionstore.com</p>
+        <p>Phone: +123 456 7890</p>
+        <address>No 07,Anna Nagar,Chennai,100004</address>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+    </section>
+    <footer>
+        <p>&copy; 2024 Fashion Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
