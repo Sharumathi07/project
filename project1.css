@@ -21,6 +21,7 @@ header {
     background: peachpuff;
     color: black;
     padding: 10px 0;
+    width:100%;
 }
 
 nav {
@@ -57,7 +58,7 @@ nav ul li a {
 .hero {
     background-image: url(https://media.glamourmagazine.co.uk/photos/6138a1cfdc58bfe816d3990f/4:3/w_1920,h_1440,c_limit/cruise.jpg);
     background-repeat: no-repeat;
-    height: 100px;
+    height: 300px;
     width: 1000px;
     background-position: centre;
     background-size:cover;
@@ -90,6 +91,8 @@ nav ul li a {
 /* Products Section */
 .products {
     display: flex;
+    flex-direction: row;
+    align-content: center;
     flex-wrap:wrap;
     justify-content: center;
     padding: 20px;
